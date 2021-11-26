@@ -1,0 +1,107 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "required": [],
+    "properties": {
+        "article_id": {
+            "type": "string"
+        },
+        "artiale_type_en": {
+            "type": "string"
+        },
+        "artiale_type_th": {
+            "type": "string"
+        },
+        "article_name_en": {
+            "type": "string"
+        },
+        "article_name_th": {
+            "type": "string"
+        },
+        "imageUrl": {
+            "type": "string"
+        },
+        "article_detail_en": {
+            "type": "object",
+            "required": [],
+            "properties": {
+                "paragraph_list": {
+                    "type": "array",
+                    "additionalItems": false,
+                    "items": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                            "paragraph_title": {
+                                "type": "string"
+                            },
+                            "ordered": {
+                                "type": "boolean"
+                            },
+                            "detail": {
+                                "type": "array",
+                                "additionalItems": false,
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "credit": {
+                    "type": "string"
+                },
+                "author": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "article_detail_th": {
+            "type": "object",
+            "required": [],
+            "properties": {
+                "paragraph_list": {
+                    "type": "array",
+                    "additionalItems": false,
+                    "items": {
+                        "type": "object",
+                        "required": [],
+                        "properties": {
+                            "paragraph_title": {
+                                "type": "string"
+                            },
+                            "ordered": {
+                                "type": "boolean"
+                            },
+                            "detail": {
+                                "type": "array",
+                                "additionalItems": false,
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "credit": {
+                    "type": "string"
+                },
+                "author": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "ingredient_list": {
+            "type": "array",
+            "additionalItems": false,
+            "items": {
+                "type": "integer"
+            }
+        }
+    },
+    "additionalProperties": false
+}
