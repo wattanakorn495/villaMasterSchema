@@ -10,7 +10,6 @@ preorderRootGroup:
 
 ignoreGroupList:
   - id: 123456789
-  - id: 38153
 
 paymentMethods:
 #  - id: "Credit/Debit Card"
