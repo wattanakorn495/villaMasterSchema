@@ -15,9 +15,9 @@ paymentMethods:
   - id: "Credit/Debit Card"
     name: "Credit/Debit Card"
     img: ["visa.svg", "master-card.svg", "jcb.svg"]
-#  - id: "Credit/Debit Card V2"
-#    name: "Credit/Debit Card"
-#    img: ["visa.svg", "master-card.svg", "jcb.svg"]
+  - id: "Credit/Debit Card V2"
+    name: "Credit/Debit Card"
+    img: ["visa.svg", "master-card.svg", "jcb.svg"]
   - id: "Amex"
     name: "Amex"
     img: ["amex.svg"]
