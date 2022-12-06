@@ -36,3 +36,6 @@ paymentMethods:
   - id: "Alipay"
     name: "Alipay"
     img: ["alipay_logo.jpg"]
+  - id: "Vplus Wallet"
+    name: "Vplus Wallet"
+    img: ["wallet-logo.svg"]
