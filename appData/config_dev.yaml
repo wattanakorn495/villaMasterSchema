@@ -21,15 +21,15 @@ paymentMethods:
 #  - id: "Amex"
 #    name: "Amex"
 #    img: ["amex.svg"]
-  - id: "Vplus Wallet"
-    name: "Vplus Wallet"
-    img: ["wallet-logo.svg"]
+#  - id: "Vplus Wallet"
+#    name: "Vplus Wallet"
+#    img: ["wallet-logo.svg"]
   - id: "Thai QR"
     name: "Thai QR"
     img: ["thai_qr.png"]
-  - id: "Other"
-    name: "Other"
-    img: ["alipay_logo.jpg", "wechat-pay.svg", "union.svg"]
+#  - id: "Other"
+#    name: "Other"
+#    img: ["alipay_logo.jpg", "wechat-pay.svg", "union.svg"]
   - id: "Wechat"
     name: "Wechat"
     img: ["wechat-pay.svg"]
